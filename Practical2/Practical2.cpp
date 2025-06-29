@@ -1,12 +1,14 @@
-﻿// Practical2.cpp : Defines the entry point for the application.
-//
-
-#include "Practical2.h"
-
+#include <iostream>
+#include <string>
+#include "Pie.h"
+#include "ApplePie.h"
+#include "RaspberryPie.h"
 using namespace std;
 
-int main()
-{
-	cout << "Hello CMake." << endl;
+int main(){
+	ApplePie app;
+	cout << app.description() << endl;
+	RaspberryPie rap;
+	cout << rap.description() << endl;
 	return 0;
 }
