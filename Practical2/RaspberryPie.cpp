@@ -2,5 +2,5 @@
 
 string RaspberryPie::description() const
 {
-	return  "I am a raspberry pie :)";
+	return  "You got a raspberry pie :)";
 }

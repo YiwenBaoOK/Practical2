@@ -2,5 +2,5 @@
 
 string ApricotPie::description() const
 {
-	return "I am an apricot pie :)";
+	return "You got an apricot pie :)";
 }
